@@ -15,6 +15,8 @@ public class First {
 	public static void adventure(Hero myHero) {
 		Scanner input = new Scanner(System.in);
 
+		System.out.println("\n\t--------------------------------- CHAPTER 9 ----------------------------------------");
+		
 		System.out.println("\nAdmiral Robotson sings gaily in the background as he steadies the " + Hero.getShipTitle() + " over the world below.");
 		System.out.println("\n\t\"Do not be fooled, there is never just one");
 		System.out.println("\tThese damn waves are temp'ry, no fear need we shun");
@@ -36,7 +38,7 @@ public class First {
 			System.out.println("                                     ---> Pluck decreases");
 		}
 		
-		System.out.println("\nYou give yourself to the planet's strong pull");
+		System.out.println("\nYou give yourself to the planet's heavy pull");
 		
 		System.out.println("\nCaptain " + Hero.getName() + " embarks on a truly memorable adventure");
 	}
